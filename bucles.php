@@ -51,5 +51,20 @@ print(")" . PHP_EOL);
 // for (inicio; condicion; incremento)
 
 
+/// arreglo de indice asociativo
+$arrAssociative = [];
+$arrAssociative["nombre"] =  "Pedro" ;
+$arrAssociative["apellido_paterno"] =  "Navarro" ;
+$arrAssociative["apellido_materno"] =  "Monter" ;
+
+
+print $arrAssociative["nombre"] .PHP_EOL;
+
+foreach($arrAssociative as $key => $value) {
+	print("{$key}:    ${value} " . PHP_EOL);
+}
+
+
+
 
 
